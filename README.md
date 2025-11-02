@@ -45,7 +45,7 @@ source venv/bin/activate
 
 ```bash
 # Install requirements
-pip install -r requirements.txt
+sh setup.sh
 ```
 
 ### 4. Download Models
