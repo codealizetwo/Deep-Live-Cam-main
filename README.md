@@ -21,7 +21,18 @@ Developed by Ilyas AKKUS
 
 ## Installation
 
+
 ### 1. Install Python 3.10
+
+```bash
+# CD into Downloads
+cd Downloads
+cd Deep-Live-Cam-main-main
+
+# Verify installation
+python3.10 --version
+
+### 2. Install Python 3.10
 
 ```bash
 # Install Python 3.10 using Homebrew
@@ -31,7 +42,7 @@ brew install python@3.10
 python3.10 --version
 ```
 
-### 2. Create Virtual Environment
+### 3. Create Virtual Environment
 
 ```bash
 # Create virtual environment with Python 3.10
@@ -41,16 +52,16 @@ python3.10 -m venv venv
 source venv/bin/activate
 ```
 
-### 3. Install Dependencies
+### 4. Install Dependencies
 
 ```bash
 # Install requirements
 sh setup.sh
 ```
 
-### 4. Download Models
+### 5. Download Models
 
-Models will be automatically downloaded on first run (~300MB).
+Models will be automatically downloaded on first run (~300MB), or you can download them manaully. Your choice.
 
 ## Usage
 
