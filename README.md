@@ -2,7 +2,7 @@
 
 Real-time face swap application optimized for Apple Silicon (M1/M2/M3) with OBS Studio integration.
 
-Developed by Ilyas AKKUS
+Developed by Ilyas AKKUS (just giving a better guide)
 
 ## Features
 
@@ -22,7 +22,7 @@ Developed by Ilyas AKKUS
 ## Installation
 
 
-### 1. Install Python 3.10
+### 1 & 2. Install Python 3.10 & CD'ing
 
 ```bash
 # CD into Downloads
@@ -74,7 +74,7 @@ Models will be automatically downloaded on first run (~300MB), or you can downlo
 
 2. Run the application:
    ```bash
-   python3.10 run.py --execution-provider coreml
+   python3.10 run.py --execution-provider coreml (note you may have to install pip install opencv-python, pip install insightface, pip install gdown, pip install onnxruntime before this works)
    ```
 
 3. Select source face image
@@ -114,6 +114,8 @@ Models will be automatically downloaded on first run (~300MB), or you can downlo
    - Make sure to use CoreML execution provider for Apple Silicon
    - Close unnecessary applications
    - Reduce preview window size if needed
+  
+     
 
 ## M2 Optimizations and Performance
 
