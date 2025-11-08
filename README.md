@@ -74,8 +74,9 @@ Models will be automatically downloaded on first run (~300MB), or you can downlo
 
 2. Run the application:
    ```bash
+   pip install opencv-python insightface gdown onnxruntime customtkinter
    python3.10 run.py --execution-provider coreml
-   pip install opencv-python pip install insightface pip install gdown pip install onnxruntime pip install customtkinter
+   
    ```
 
 3. Select source face image
